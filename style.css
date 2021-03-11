@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Open+Sans&display=swap');
+
+body {
+  background-color: #F5EEE9;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+
+}
+
+
+
+h1 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 32px;
+  line-height: 60px;
+}
+
+h2 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 24px;
+  line-height: 20px;
+  letter-spacing: 8px
+
+}
+
+h3 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+.title {
+  background-color: white;
+  margin: 16px;
+  padding: 24px;
+  text-align: left;
+ /* position: fixed;*/
+  /*outline: green 1px solid;*/
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 42px
+
+}
+
+.bio{
+  background-color: white;
+  margin: 16px;
+  padding: 24px;
+  text-align: center;
+  opacity: 0.6;
+  border-radius: 3px;
+
+}
+
+
+.headshot {
+  /*margin: 0 auto;*/
+  border-radius: 50%;
+  text-align: center;
+  width: 80px;
+  padding: right;
+
+
+}
+
+.right-position {
+  position: absolute;
+  top: 80px;
+  right: 300px;
+}
+
+
+.img-banner  {
+  background-image: url("souvenir.png");
+  width: 60%;
+  margin: 0 auto;
+
+}
+.button {
+  color: #4A4A4A;
+  background-color: white;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 20px;
+  /*outline: #ff8720 1px solid;*/
+
+}
+
+a.follow-me {
+  text-decoration: none;
+  color: #4A4A4A;
+}
+
+.footer {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  padding: 0px 50px;
+  padding-bottom: 100px
+  color: rgba(0,0,0,0.3);
+  /*outline: #ff8720 1px solid;*/
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.cards-container {
+  width: 1088px;
+  margin: 0 auto
+
+  /*outline: yellow 1px solid;*/
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin-bottom: 50px;
+ /* outline: blue 1px solid;*/
+}
+
+.card-white {
+  width: 200px;
+  background-color: white;
+  box-shadow: 0px 0px 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+  /*outline: blue 1px solid;*/
+}
+
+.card-white img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+
+}
+
+.card-white h3 {
+  margin-bottom: 0;
+}
+/*-----------------*/
+.blend {
+  width: 72vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blend img {
+  position: absolute;
+  width: 500px;
+  opacity: 0.4;
+}
+
+.blend h1 {
+  font-size: 100px;
+  mix-blend-mode: overlay;
+}
+
+.coming-soon {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+/* ----------------------------*/
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+   .cards-container{
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .cards-container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+   .cards-container {
+    width: 300px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+   .cards{
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .cards {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+   .cards {
+    width: 300px;
+  }
+}
+
+
+
+
